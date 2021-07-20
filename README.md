@@ -24,4 +24,4 @@ When we want to generate random value we click on <b>Click Me</b> button.Also we
 
 ![alt text](https://github.com/KRISHANKANTAGNIHOTRI/Color-Selector/blob/main/images/7.png)
 
-![alt text](https://github.com/KRISHANKANTAGNIHOTRI/Color-Selector/blob/main/images/8.PNG)
+![alt text](https://github.com/KRISHANKANTAGNIHOTRI/Color-Selector/blob/main/images/8.png)
