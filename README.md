@@ -1,6 +1,8 @@
 # Color-Selector
 We Developer often think so much on selecting the colors for our frontend projects. So I made something which can help us to select colors very easily.
 
+<a href ="https://color-selector-kk.herokuapp.com/" >See Deployment</a>
+
 ![alt text](https://github.com/KRISHANKANTAGNIHOTRI/Color-Selector/blob/main/images/1.png)
 
 In this progject we have 2 modes 
