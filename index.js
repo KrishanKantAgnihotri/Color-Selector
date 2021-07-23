@@ -1,4 +1,5 @@
-const colors = ['red', 'green', 'blue', 'yellow', 'orange', 'aqua', 'grey', 'azure', 'beige', 'bisque', 'blanchedalmond', 'blueviolet', 'brown', 'burlywood', 'chartreuse', 'chocolate'];
+const colors = ['red', 'green', 'blue', 'yellow', 'orange', 'aqua', 'grey', 'azure', 'beige', 'bisque', 'blanchedalmond', 'blueviolet', 'brown', 'burlywood', 
+                'chartreuse', 'chocolate'];
 const nums = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f']
 let flag = true;
 const hex = document.getElementById("hex");
@@ -25,7 +26,7 @@ simple.addEventListener("click", function () {
 const color = document.querySelector("#text");
 btn.addEventListener("click", function () {
 
-    console.log(flag);
+    // console.log(flag);
     if (flag) {
         const randomNumber = Math.floor(Math.random() * colors.length);
 
