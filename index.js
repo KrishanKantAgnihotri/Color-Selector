@@ -1,5 +1,4 @@
-const colors = ['red', 'green', 'blue', 'yellow', 'orange', 'aqua', 'grey', 'azure', 'beige', 'bisque', 'blanchedalmond', 'blueviolet', 'brown', 'burlywood', 
-                'chartreuse', 'chocolate'];
+const colors = ['red', 'green', 'blue', 'yellow', 'orange', 'aqua', 'grey', 'azure', 'beige', 'bisque', 'blanchedalmond', 'blueviolet', 'brown', 'burlywood', 'chartreuse', 'chocolate'];
 const nums = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f']
 let flag = true;
 const hex = document.getElementById("hex");
@@ -30,7 +29,7 @@ btn.addEventListener("click", function () {
     if (flag) {
         const randomNumber = Math.floor(Math.random() * colors.length);
 
-        document.getElementsByClassName("content")[0].style.backgroundColor = colors[randomNumber];
+        document.getElementsByClassName("container")[0].style.backgroundColor = colors[randomNumber];
         color.textContent = colors[randomNumber];
     }
     else {
@@ -38,7 +37,7 @@ btn.addEventListener("click", function () {
         for (let i = 0; i < 6; i++) {
             colors += (nums[Math.floor(Math.random() * nums.length)]);
         }
-        document.getElementsByClassName("content")[0].style.backgroundColor = colors;
+        document.getElementsByClassName("container")[0].style.backgroundColor = colors;
         color.textContent = colors;
 
     }
